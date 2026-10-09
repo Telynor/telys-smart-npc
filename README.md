@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/Telynor/telys-smart-npc/main/module.json
 
 Install the module, then enable it in your world. For a manual installation:
 
-1. Extract the ZIP. Place the entire **telys-smart-npc** folder in your Foundry user data directory at **Data/modules/telys-smart-npc**. `module.json` must be directly inside that folder. If using a hosted Foundry server, upload the folder to that server's custom modules directory.
+1. Create **Data/modules/telys-smart-npc** in your Foundry user data directory and extract/copy the module files into it. `module.json` must be directly inside that folder, alongside `scripts` and `styles`. If using a hosted Foundry server, upload that folder to the server's custom modules directory.
 2. Restart Foundry. In your D&D5e world, enable **midi-QOL**, its required dependencies, your HSR modules, and **Tely's Smart NPC Combat**.
 3. Open the **robot button** under Token Controls, or **Configure Settings → Tely's Smart NPC Combat → NPC combat director**.
 4. If the director reports midi-QOL configuration problems, use **Configure midi-QOL**. Its confirmation describes the world settings it changes: automatic hit checking, automatic saves, and automatic damage with a damage card. Player saves then roll automatically.
