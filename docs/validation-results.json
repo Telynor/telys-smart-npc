@@ -1,0 +1,15 @@
+{
+  "built": "2026-10-09",
+  "module": "telys-smart-npc",
+  "version": "1.0.0",
+  "targetFoundry": "14.368",
+  "targetSystem": "dnd5e 5.3.3",
+  "targetMidi": "14.0.13",
+  "automatedTests": 58,
+  "passed": 58,
+  "failed": 0,
+  "syntaxChecks": "passed",
+  "windowHtmlSmokeChecks": 5,
+  "liveFoundryTested": false,
+  "node": "v24.19.0"
+}

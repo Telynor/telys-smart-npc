@@ -1,0 +1,65 @@
+{
+  "id": "telys-smart-npc",
+  "title": "Tely's Smart NPC Combat",
+  "description": "GM-reviewed NPC tactics, wall-aware pathfinding, midi-QOL attacks and damage, HSR combat awareness, and player reaction checkpoints.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Telynor"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14.368",
+    "verified": "14.368",
+    "maximum": "14.999"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "maximum": "5.9.99"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {
+          "minimum": "14.0.13"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "telys-star-rail-ultimates",
+        "type": "module"
+      },
+      {
+        "id": "telys-planar-ornaments",
+        "type": "module"
+      },
+      {
+        "id": "telys-memosprites",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/smart-npc.css"
+  ],
+  "socket": true,
+  "license": "LICENSE",
+  "readme": "README.md",
+  "url": "https://github.com/Telynor/telys-smart-npc",
+  "manifest": "https://raw.githubusercontent.com/Telynor/telys-smart-npc/main/module.json",
+  "download": "https://github.com/Telynor/telys-smart-npc/releases/download/v1.0.0/telys-smart-npc-v1.0.0.zip",
+  "bugs": "https://github.com/Telynor/telys-smart-npc/issues",
+  "changelog": "https://github.com/Telynor/telys-smart-npc/blob/main/CHANGELOG.md"
+}

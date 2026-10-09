@@ -1,0 +1,45 @@
+.tsnpc-window { --tsnpc-accent:#a7dfea; --tsnpc-gold:#e7c875; --tsnpc-border:rgba(169,203,219,.25); }
+.tsnpc-window .window-content { padding:0; background:linear-gradient(150deg,#162634,#111923 60%,#182130); color:#e7edf3; }
+.tsnpc-content { padding:20px; overflow:auto; max-height:82vh; font-family:var(--font-primary); }
+.tsnpc-content h2 { border:0; color:#f2e0aa; font-size:1.35rem; margin:0 0 8px; }
+.tsnpc-content h3 { color:var(--tsnpc-accent); border-bottom:1px solid var(--tsnpc-border); padding-bottom:8px; margin-top:22px; }
+.tsnpc-content p { line-height:1.5; margin:8px 0 12px; }
+.tsnpc-hero { display:flex; align-items:center; gap:16px; margin-bottom:16px; }
+.tsnpc-hero img { width:64px; height:64px; object-fit:cover; border:2px solid var(--tsnpc-gold); border-radius:10px; }
+.tsnpc-hero > i { font-size:2.3rem; color:var(--tsnpc-gold); }
+.tsnpc-hero p { margin:0; color:#aebfce; }
+.tsnpc-badges { display:flex; gap:6px; flex-wrap:wrap; margin:14px 0; }
+.tsnpc-badges span { padding:5px 8px; background:rgba(123,164,191,.12); border:1px solid var(--tsnpc-border); border-radius:6px; font-size:.83rem; }
+.tsnpc-plan { display:flex; gap:12px; align-items:flex-start; padding:13px; margin:9px 0; border:1px solid var(--tsnpc-border); border-radius:9px; background:rgba(97,138,166,.08); cursor:pointer; }
+.tsnpc-plan:has(input:checked) { border-color:var(--tsnpc-gold); background:rgba(218,184,98,.08); }
+.tsnpc-plan input { margin-top:3px; flex:0 0 auto; }
+.tsnpc-plan strong { font-size:.95rem; color:#f0e3bd; }
+.tsnpc-plan ul { padding-left:18px; margin:7px 0 0; color:#b5c5d3; font-size:.84rem; line-height:1.6; }
+.tsnpc-buttons { display:flex; gap:8px; flex-wrap:wrap; margin-top:20px; padding-top:14px; border-top:1px solid var(--tsnpc-border); }
+.tsnpc-content button { background:#243a4b; color:#e5edf3; border:1px solid var(--tsnpc-border); border-radius:6px; padding:7px 11px; min-height:34px; font-size:.87rem; flex:1 1 auto; cursor:pointer; }
+.tsnpc-content button:hover { background:#33566b; border-color:#a7dfea; }
+.tsnpc-content button.primary { background:#695b36; border-color:#b09a61; color:#fff1c4; }
+.tsnpc-content button:disabled { opacity:.45; cursor:default; }
+.tsnpc-form-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px 14px; margin:12px 0; }
+.tsnpc-field { display:flex; flex-direction:column; gap:5px; font-size:.84rem; margin:8px 0; }
+.tsnpc-field input,.tsnpc-field select,.tsnpc-field textarea { background:#101b26; color:#f0f4f8; border:1px solid var(--tsnpc-border); border-radius:5px; width:100%; padding:6px 8px; min-height:34px; }
+.tsnpc-field select option { background:#101b26; color:#f0f4f8; }
+.tsnpc-check { display:flex; align-items:center; gap:9px; margin:11px 0; font-size:.88rem; }
+.tsnpc-check input { flex:0 0 17px; width:17px; height:17px; }
+.tsnpc-ability { border:1px solid var(--tsnpc-border); border-radius:7px; padding:11px; margin:9px 0; }
+.tsnpc-ability summary { cursor:pointer; color:#e7d8ae; line-height:1.5; }
+.tsnpc-muted,.tsnpc-content small { color:#97adbf; font-size:.8rem; }
+.tsnpc-integrations > div { display:flex; justify-content:space-between; gap:12px; padding:6px 0; font-size:.82rem; border-bottom:1px solid var(--tsnpc-border); }
+.tsnpc-integrations .ok,.tsnpc-ok { color:#95d1b0; }
+.tsnpc-warning { padding:10px 13px; border:1px solid #b28d53; border-radius:7px; color:#f1c888; background:rgba(184,133,64,.12); margin:15px 0; }
+.tsnpc-npc { display:flex; align-items:center; gap:10px; padding:11px 0; border-bottom:1px solid var(--tsnpc-border); }
+.tsnpc-npc img { width:40px; height:40px; border-radius:7px; object-fit:cover; border:1px solid var(--tsnpc-border); }
+.tsnpc-npc > div { flex:1; }
+.tsnpc-npc small { display:block; margin-top:4px; }
+.tsnpc-npc button { flex:0 0 auto; }
+.tsnpc-request { display:flex; gap:8px; align-items:center; padding:10px; margin:7px 0; border:1px solid var(--tsnpc-border); border-radius:7px; }
+.tsnpc-request span { flex:1; }
+.tsnpc-request button { flex:0 0 auto; }
+.tsnpc-player-answers { color:#97d7b2; line-height:1.7; margin:10px 0; }
+.tsnpc-phase { color:var(--tsnpc-accent); font-weight:bold; }
+@media(max-width:650px) { .tsnpc-form-grid { grid-template-columns:1fr; } .tsnpc-content { padding:14px; } .tsnpc-npc { flex-wrap:wrap; } }

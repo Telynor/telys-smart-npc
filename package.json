@@ -1,0 +1,10 @@
+{
+  "name": "telys-smart-npc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GM-reviewed NPC tactics and reaction checkpoints for Foundry v14",
+  "scripts": {"test": "node --test tests/*.test.mjs"},
+  "engines": {"node": ">=22"},
+  "license": "MIT"
+}
